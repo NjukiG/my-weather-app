@@ -10,21 +10,24 @@ function App() {
             <h3>Nairobi</h3>
           </div>
           <div className="temp">
-            <h1>65° celcius</h1>
+            <h1>65°C</h1>
           </div>
           <div className="description">
-            <p>Cloudy with a chance of meatballs</p>
+            <p>Cloudy/ Rainy</p>
           </div>
         </div>
         <div className="bottom">
           <div className="feels">
-            <p>65° celcius</p>
+            <p className="bold">65°C</p>
+            <p>Feels Like</p>
           </div>
           <div className="humidity">
-            <p>20%</p>
+            <p className="bold">20%</p>
+            <p>Humidity</p>
           </div>
           <div className="wind">
-            <p>20kmh</p>
+            <p className="bold">20kmh</p>
+            <p>Wind Speed</p>
           </div>
         </div>
       </div>
