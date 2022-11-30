@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 function App() {
 
-  const URL = "https://api.openweathermap.org/data/2.5/weather?q=nairobi&appid=146dfe8931b293b83b1f72db06ef1d0c"
+  const [data, setData] = useState({})
+
+  const [location, setLocation] = useState("")
+
+  const URL = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=146dfe8931b293b83b1f72db06ef1d0c`
   return (
     <div className="app">
       <div className="container">
