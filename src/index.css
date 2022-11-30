@@ -32,6 +32,10 @@ h3{
   font-size: 3rem;
 }
 
+.desc{
+  font-size: 1.1rem;
+}
+
 .app {
   width: 100%;
   height: 100vh;
